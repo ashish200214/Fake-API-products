@@ -1,0 +1,24 @@
+#main-div{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:0.5vw;
+}
+.sub-div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 1vw;
+    border: 1px solid black;
+}
+
+.img{
+    width: 15vw;
+    height: 12vw;
+}
+
+.div-hidden{
+    display: none;
+
+}
