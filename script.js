@@ -44,6 +44,7 @@ function display(element){
     //btn of description
     const btn = document.createElement("button")
     btn.textContent = "Description"
+    btn.classList.add("btn")
 
     //div of description
     const divHidden = document.createElement("div")

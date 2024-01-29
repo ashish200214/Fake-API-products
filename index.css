@@ -1,16 +1,25 @@
 #main-div{
     display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: auto auto auto;
     gap:0.5vw;
 }
 .sub-div{
-    width: 20vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1px 1vw;
-    border: 1px solid black;
+    border: 5px solid firebrick;
+    border-radius: 2vw;
+    padding: 0.5em;
+    background-image: linear-gradient(aqua,yellow);
+    
+    
+}
+
+.sub-div h3{
+    text-align: center;
 }
 
 .img{
@@ -20,5 +29,33 @@
 
 .div-hidden{
     display: none;
+    text-align: center;
+    color: white;
+}
+.btn{blue
+    background-color: greenyellow;
+    border: 1px solid white;
+    font-size: 2vw;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin:0.5vw;
+}
 
+.btn:hover{
+    background-color: grey;
+    color: white;
+    border: 2px solid red;
+}
+
+h1{
+    text-align: center;
+    background-color: beige;
+    border: 1px solid white;
+    border-radius: 2vw;
+    padding: 1vw;
+    color: blueviolet;
+}
+
+*{
+    box-sizing: border-box;
 }
